@@ -1,0 +1,30 @@
+.singleTrain-wrapper {
+  align-items: center;
+  padding: 40px 40px 40px 40px;
+  background: black;
+  width: 400px;
+  color: white;
+  margin-top: 40px;
+  border-radius: 16px;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.trainNumberInput {
+  align-items: center;
+  padding: 40px 40px 40px 40px;
+  width: 400px;
+  color: white;
+  margin-top: 40px;
+  border-radius: 16px;
+}
