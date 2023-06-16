@@ -1,0 +1,54 @@
+.singleTrain-wrapper {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 40px;
+  /* background-color: grey; */
+  background-color: black;
+  border-radius: 26px;
+  background-color: lightblue;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.trainNumberInput {
+  align-items: center;
+  /* padding: 40px 40px 40px 40px; */
+  width: 200px;
+  color: white;
+  margin-top: 40px;
+  border-radius: 16px;
+  display: flex;
+}
+
+.Input-bar {
+  justify-content: center;
+  border-radius: 16px;
+  width: 250px;
+  align-items: center;
+  margin-top: 100px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 70px;
+}
+.submit {
+  border-radius: 16px;
+  background-color: lightblue;
+  padding: 10px 10px;
+}
+
+.green {
+  color: green;
+}

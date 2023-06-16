@@ -1,0 +1,31 @@
+.home-wrapper {
+  display: flex;
+  background: black;
+  color: white;
+  margin: 2px;
+  padding: 15px;
+  gap: 10px;
+}
+
+.delayedBy {
+  color: yellow;
+}
+.available {
+  display: flex;
+  gap: 10px;
+}
+.header {
+  background-color: lightblue;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px;
+  text-align: center; /* Optionally, you can center align the text within the content div */
+}
+
+.centered-list .list-group-item {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 550px;
+}
