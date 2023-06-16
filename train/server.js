@@ -1,8 +1,9 @@
 import express from "express";
 import fetch from "node-fetch";
-
 const app = express();
 const port = 9000;
+import cors from "cors";
+app.use(cors());
 
 const requestedBody = {
   companyName: "Manoj-gowda-v",
@@ -12,7 +13,6 @@ const requestedBody = {
   ownerEmail: "manojgowda.vr@gmail.com",
   rollNo: "R20EJ113",
 };
-
 const getAuthtoken = async () => {
   try {
     const response = await fetch("http://104.211.219.98/train/auth", {
